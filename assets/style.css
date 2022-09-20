@@ -1,0 +1,102 @@
+/* 1 rem = 10px */
+html{
+    font-size: 62.5%; 
+    box-sizing: border-box;
+}
+
+/* para que el padding no represente un problema */
+*,
+*::before,
+*::after {
+    box-sizing: inherit; 
+}
+
+
+body{
+    font-family: Montserrat, sans-serif;
+    font-size: 1.6rem;
+}
+
+a{
+    font-size: 2rem;
+    color: ffffff;
+    text-decoration: none;
+}
+
+.contenedor{
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1, h2, h3{
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+/* start header */
+h2 span{
+    font-size: 1.9rem;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+}
+
+.container-header{
+    height: 100vh;
+    background-image: url(/img/photo-1-tiara.avif);
+    background-size: cover;
+    background-position:center ;
+    opacity: 0.9;
+}
+
+
+
+@media (max-width:992px){
+    nav h2{
+        font-size: 5rem;
+    }
+}
+
+@media (min-width:992px){
+    nav h2{
+        margin-top: 0rem;
+        font-weight: bold;
+        font-size: 7rem;
+    }
+}
+
+@media (max-width:435px){
+    nav h2{
+        font-size: 3rem;
+    }
+}
+
+ul.dropdown-menu{
+    background-color: transparent;
+    border: none;
+    font-size: 0.7rem;
+}
+
+
+a.dropdown-item:focus, 
+a.dropdown-item:hover {
+    color: #8f9192;
+    background-color: transparent
+}
+
+a.navbar-light a.navbar-nav a.nav-link {
+    color: rgba(158, 46, 46, 0.55);
+}
+
+/* end header */
