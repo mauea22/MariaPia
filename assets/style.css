@@ -53,7 +53,7 @@ h3 {
     background-image: url(/img/photo-1-tiara.avif);
     background-size: cover;
     background-position:center ;
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 
@@ -140,7 +140,7 @@ a.dropdown-item:hover {
 
 .container-button{
     display: flex;
-    margin: 12rem 1rem;
+    margin: 10rem 0;
     height: 100vh;
     width: 100%;
     background-color: transparent;
@@ -150,13 +150,29 @@ a.dropdown-item:hover {
     flex-wrap: wrap;
 }
 
-.container-button a{
-    border: 2px solid rgb(167, 100, 100);
-    color: rgb(138, 68, 68);
-    padding: 0.5rem;
-    font-weight: bold;
-    
 
+
+
+.container-button a{
+    color: rgb(192, 53, 53);
+    padding: 0.5rem;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    border: 1px solid rgb(172, 56, 56);
+}
+
+.container-button a:hover{
+    padding: 0.5rem; 
+    color: rgb(122, 46, 46);
+    font-weight: 400;
+    border-radius: 3px;
+    box-shadow: 1px 2px 5px 2px rgba(0, 0, 10, 0.555);
+    border: 1px solid rgb(122, 46, 46);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
 }
 
 /* end header */
